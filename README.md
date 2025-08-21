@@ -2,11 +2,11 @@
 
 UniFlow is a comprehensive productivity application designed for students and professionals to manage their academic and personal productivity workflows in one seamless platform.
 
-## 🚀 Current Status
+## �� Current Status
 
-**Phase 1: Authentication System** ✅ **COMPLETED & READY FOR GITHUB**
+**Version 2.0.0** ✅ **RELEASED**
 
-The application currently has a fully functional authentication system with the following features:
+The application currently has a fully functional authentication system and comprehensive calendar management with the following features:
 
 ### ✅ Implemented Features
 
@@ -35,6 +35,20 @@ The application currently has a fully functional authentication system with the 
 - **Loading States**: Proper loading indicators for all async operations
 - **Toast Notifications**: User-friendly success/error notifications
 
+#### Calendar & Event Management
+- **Multiple Views**: Month, Week, Day, and Agenda views
+- **Event Creation**: Comprehensive event creation with all details
+- **Event Types**: Class, Assignment, Personal, Meeting, Study, Exam, Project, Other
+- **Recurring Events**: Support for daily, weekly, monthly, yearly recurrence
+- **Reminders**: Configurable reminder notifications
+- **Attendees**: Add and manage event attendees
+- **Priority Levels**: Low, Medium, High priority events
+- **All-Day Events**: Support for all-day events
+- **Event Management**: Edit, delete, and mark events as completed
+- **Color Coding**: Different colors for different event types
+- **Location Support**: Add locations to events
+- **Duration Tracking**: Automatic duration calculation
+
 ### 🔧 Technical Stack
 
 - **Frontend**: React 18 + TypeScript + Vite
@@ -52,17 +66,17 @@ For testing purposes, a demo account is automatically created:
 - **Email**: `demo@uniflow.com`
 - **Password**: `demo123`
 
-## 🚧 Upcoming Features
+## 🚧 Roadmap
 
-### Phase 2: Calendar & Task Management (Planned)
-- [ ] Full-featured calendar component
-- [ ] Event creation, editing, and deletion
-- [ ] Recurring events
-- [ ] Task management with priorities
-- [ ] Calendar views (monthly, weekly, daily)
-- [ ] Event notifications and reminders
+### Version 2.0.0 ✅ **RELEASED**
+- [x] Full-featured calendar component
+- [x] Event creation, editing, and deletion
+- [x] Recurring events
+- [x] Task management with priorities
+- [x] Calendar views (monthly, weekly, daily, agenda)
+- [x] Event notifications and reminders
 
-### Phase 3: Note-Taking System (Planned)
+### Version 3.0.0 (Planned)
 - [ ] Rich text editor with markdown support
 - [ ] Syntax highlighting for programming languages
 - [ ] Folder/notebook organization
@@ -70,14 +84,14 @@ For testing purposes, a demo account is automatically created:
 - [ ] Tagging and categorization
 - [ ] Export options (PDF, markdown)
 
-### Phase 4: External Integrations (Planned)
+### Version 4.0.0 (Planned)
 - [ ] Spotify integration
 - [ ] MyFitnessPal integration
 - [ ] Strava integration
 - [ ] Flexible API integration system
 - [ ] Data synchronization
 
-### Phase 5: Advanced Features (Planned)
+### Version 5.0.0 (Planned)
 - [ ] Two-factor authentication
 - [ ] Offline functionality
 - [ ] Data export and backup
@@ -86,7 +100,7 @@ For testing purposes, a demo account is automatically created:
 
 ## 🛠️ Getting Started
 
-> **Note**: This repository contains **Phase 1 only** - a complete authentication system. Phase 2 (Calendar & Tasks) has been temporarily removed for this GitHub upload and will be re-added in a future update.
+> **Note**: This repository contains **Version 2.0.0** - a complete authentication system and comprehensive calendar management. The application now supports full event management with multiple calendar views.
 
 ### Prerequisites
 - Node.js 18+ 
